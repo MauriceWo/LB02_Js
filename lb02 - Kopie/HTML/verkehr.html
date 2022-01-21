@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/style2.css">
+        <meta charset="utf-8">
+        <title>La galerie de Ma²</title>
+        <style>
+            .bildkarussel_verkehr {
+                width: 960px;
+                height: 540px;
+                background: url(../images/verkehrsbilder_komprimiert/verkehrsbild_1_kompremiert.jpg);
+                margin: 100px auto;
+                animation: slide 20s infinite; 
+                margin-top: 15px;
+            }
+            @keyframes slide {
+                12.5% {
+                    background: url(../images/verkehrsbilder_komprimiert/verkehrsbild_2_kompremiert.jpg);
+                }
+                25% {
+                    background: url(../images/verkehrsbilder_komprimiert/verkehrsbild_3_kompremiert.jpg);
+                }
+                37.5% {
+                    background: url(../images/verkehrsbilder_komprimiert/verkehrsbild_4_kompremiert.jpg);
+                }
+                50% {
+                    background: url(../images/verkehrsbilder_komprimiert/verkehrsbild_5_kompremiert.jpg);
+                }
+                62.5% {
+                    background: url(../images/verkehrsbilder_komprimiert/verkehrsbild_6_kompremiert.jpg);
+                }
+                75% {
+                    background: url(../images/verkehrsbilder_komprimiert/verkehrsbild_7_kompremiert.jpg);
+                }
+                87.5% {
+                    background: url(../images/verkehrsbilder_komprimiert/verkehrsbild_8_kompremiert.jpg);
+                }
+                100% {
+                    background: url(../images/verkehrsbilder_komprimiert/verkehrsbild_1_kompremiert.jpg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="./index.html">Über uns</a>
+            <a href="./astro.html">Astrofotografie</a>
+            <a href="./wasser.html">Wasserfotografie</a>
+            <a href="./natur.html">Naturfotografie</a>
+            <a href="./feedback.html">Feedback</a>
+        </div>
+        <div class="titel">
+            <h1>Verkehrsfotografie</h1>
+        </div>
+        <div class="bildkarussel_verkehr"></div>
+        <div class="rand">
+            <div class="inhalt"><img src="../images/verkehrsbild_1.jpg"></div>
+            <div class="inhalt"><img src="../images/verkehrsbild_2.jpg"></div>
+            <div class="inhalt"><img src="../images/verkehrsbild_3.jpg"></div>
+            <div class="inhalt"><img src="../images/verkehrsbild_4.jpg"></div>
+
+            <div class="inhalt"><img src="../images/verkehrsbild_5.jpg"></div>
+            <div class="inhalt"><img src="../images/verkehrsbild_6.jpg"></div>
+            <div class="inhalt"><img src="../images/verkehrsbild_7.jpg"></div>
+            <div class="inhalt"><img src="../images/verkehrsbild_8.jpg"></div>
+        </div>
+    </body>
+</html>

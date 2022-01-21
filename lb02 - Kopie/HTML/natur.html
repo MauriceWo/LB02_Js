@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+        <meta charset="utf-8">
+        <title>La galerie de Ma²</title>
+    </head>
+    <style>
+        .bildkarussel_natur {
+            width: 960px;
+            height: 540px;
+            background: url(../images/naturbilder_kompromiert/naturbild_1_kompromiert.jpg);
+            margin: 100px auto;
+            animation: slide 20s infinite; 
+            margin-top: 15px;
+        }
+        @keyframes slide {
+            12.5% {
+                background: url(../images/naturbilder_kompromiert/naturbild_2_kompromiert.jpg);
+            }
+            25% {
+                background: url(../images/naturbilder_kompromiert/naturbild_3_kompromiert.jpg);
+            }
+            37.5% {
+                background: url(../images/naturbilder_kompromiert/naturbild_4_kompromiert.jpg);
+            }
+            50% {
+                background: url(../images/naturbilder_kompromiert/naturbild_5_kompromiert.jpg);
+            }
+            62.5% {
+                background: url(../images/naturbilder_kompromiert/naturbild_6_kompromiert.jpg);
+            }
+            75% {
+                background: url(../images/naturbilder_kompromiert/naturbild_7_kompromiert.jpg);
+            }
+            87.5% {
+                background: url(../images/naturbilder_kompromiert/naturbild_8_kompromiert.jpg);
+            }
+            100% {
+                background: url(../images/naturbilder_kompromiert/naturbild_1_kompromiert.jpg);
+            }
+        }
+    </style>
+    <body>
+        <div class="navbar">
+            <a href="./index.html">Über uns</a>
+            <a href="./astro.html">Astrofotografie</a>
+            <a href="./wasser.html">Wasserfotografie</a>
+            <a href="./verkehr.html">Verkehrsfotografie</a>
+            <a href="./feedback.html">Feedback</a>
+        </div>
+        <div class="titel">
+            <h1>Naturfotografie</h1>
+        </div>
+        <div class="bildkarussel_natur"></div>
+        <div class="rand">
+            <div class="inhalt"><img src="../images/naturbild_1.jpg"></div>
+            <div class="inhalt"><img src="../images/naturbild_2.jpg"></div>
+            <div class="inhalt"><img src="../images/naturbild_3.jpg"></div>
+            <div class="inhalt"><img src="../images/naturbild_4.jpg"></div>
+
+            <div class="inhalt"><img src="../images/naturbild_5.jpg"></div>
+            <div class="inhalt"><img src="../images/naturbild_6.jpg"></div>
+            <div class="inhalt"><img src="../images/naturbild_7.jpg"></div>
+            <div class="inhalt"><img src="../images/naturbild_8.jpg"></div>
+        </div>
+    </body>
+</html>

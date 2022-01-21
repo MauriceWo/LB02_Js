@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/style2.css">
+        <meta charset="utf-8">
+        <title>La galerie de Ma²</title>
+        <style>
+            .bildkarussel_wasser {
+                width: 960px;
+                height: 540px;
+                background: url(../images/wasserbilder_komprimiert/komprimiert_1.jpg);
+                margin: 100px auto;
+                animation: slide 20s infinite; 
+                margin-top: 15px;
+            }
+            @keyframes slide {
+                12.5% {
+                    background: url(../images/wasserbilder_komprimiert/komprimiert__2.jpg);
+                }
+                25% {
+                    background: url(../images/wasserbilder_komprimiert/komprimiert_3.jpg);
+                }
+                37.5% {
+                    background: url(../images/wasserbilder_komprimiert/komprimiert_4.jpg);
+                }
+                50% {
+                    background: url(../images/wasserbilder_komprimiert/komprimiert_5.jpg);
+                }
+                62.5% {
+                    background: url(../images/wasserbilder_komprimiert/komprimiert_6.jpg);
+                }
+                75% {
+                    background: url(../images/wasserbilder_komprimiert/komprimiert_7.jpg);
+                }
+                87.5% {
+                    background: url(../images/wasserbilder_komprimiert/komprimiert_8.jpg);
+                }
+                100% {
+                    background: url(../images/wasserbilder_komprimiert/komprimiert_1.jpg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="./index.html">Über uns</a>
+            <a href="./astro.html">Astrofotografie</a>
+            <a href="./natur.html">Naturfotografie</a>
+            <a href="./verkehr.html">Verkehrsfotografie</a>
+            <a href="./feedback.html">Feedback</a>
+        </div>
+        <div class="titel">
+            <h1>Wasserfotografie</h1>
+        </div>
+        <div class="bildkarussel_wasser">
+        </div>
+        <div class="rand">
+            <div class="inhalt"><img src="../images/wasserbild_1.jpg"></div>
+            <div class="inhalt"><img src="../images/wasserbild_2.jpg"></div>
+            <div class="inhalt"><img src="../images/wasserbild_3.jpg"></div>
+            <div class="inhalt"><img src="../images/wasserbild_4.jpg"></div>
+
+            <div class="inhalt"><img src="../images/wasserbild_5.jpg"></div>
+            <div class="inhalt"><img src="../images/wasserbild_6.jpg"></div>
+            <div class="inhalt"><img src="../images/wasserbild_7.jpg"></div>
+            <div class="inhalt"><img src="../images/wasserbild_8.jpg"></div>
+        </div>
+    </body>
+    </html>
