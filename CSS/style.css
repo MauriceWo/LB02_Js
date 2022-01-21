@@ -62,3 +62,15 @@ img {
 .inhalt {
     padding: 10px;
 }
+
+.feedbacktext {
+    font-size: xx-large;
+}
+
+.formular {
+    font-family: FRANKGOCON;
+    position: absolute;
+    top:  65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
