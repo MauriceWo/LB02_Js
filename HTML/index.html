@@ -11,8 +11,7 @@
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-            <script src="../Script/task-functions.js"></script>
-            <script src="../Script/task-app.js"></script>
+            <script src="../Script/ueberuns.js"></script>
             
           </body>
         </html>
@@ -56,8 +55,34 @@
       <div class="titel">
           <h1>La galerie de Ma²</h1>
       </div>
-      <div class="bildkarussel">
+      <div class="bildkarussel"></div>
+      <div class="ueber">
+
+        <h3>Maurice & Max: </h3>
+        <p id="infos"></p>
       </div>
-      
+
+      <script type="text/javascript">
+          let admins = {
+              "vornamen": ["Maurice", "Max"],
+              "nachnamen": ["Wolf", "Parthe"],
+              "alter": ["17", "17"],
+              "ausbildungen": "Mediamatiker",
+              "firma": "Swisscom",
+              "hobbies": ["Basketball", "Gym"]
+          }
+
+          let htmlObj = document.getElementById("infos");
+          htmlObj.innerHTML = 
+            `Vornamen: ${admins.vornamen[0]} / ${admins.vornamen[1]}<br>`+
+            `Nachnamen: ${admins.nachnamen[0]} / ${admins.nachnamen[1]}<br>`+
+            `Alter: ${admins.alter[0]} / ${admins.alter[1]}<br>`+
+            `Ausbildungen: ${admins.ausbildungen}<br>`+
+            `Firma: ${admins.firma}<br>`+
+            `Hobbies: ${admins.hobbies[0]} / ${admins.hobbies[1]}<br>`;
+
+            
+      </script>
+ 
   </body>
 </html>
